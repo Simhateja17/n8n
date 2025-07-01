@@ -1,0 +1,18 @@
+{
+	"node": "n8n-nodes-base.IbmDb2",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Databases"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://www.npmjs.com/package/ibm_db"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://www.npmjs.com/package/ibm_db"
+			}
+		]
+	}
+}
