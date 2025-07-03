@@ -1,19 +1,19 @@
 {
-    "name": "@simhateja/n8n-nodes-ibm-db2",
-    "version": "0.1.0",
-    "description": "n8n node for executing queries on IBM DB2",
+    "name": "@mehrdafon/n8n-nodes-ibm-db2",
+    "version": "0.4.0",
+    "description": "n8n node for executing SQL queries on IBM DB2 via REST API or ODBC",
     "keywords": [
         "n8n-community-node-package"
     ],
     "license": "MIT",
-    "homepage": "<YOUR-GITHUB-REPO-URL-HERE>",
+    "homepage": "https://github.com/Simhateja17/n8n",
     "author": {
-        "name": "<YOUR-NAME-HERE>",
-        "email": "<YOUR-EMAIL-HERE>"
+        "name": "Simhateja",
+        "email": "simhateja@example.com"
     },
     "repository": {
         "type": "git",
-        "url": "git+<YOUR-GITHUB-REPO-URL-HERE>.git"
+        "url": "git+https://github.com/Simhateja17/n8n.git"
     },
     "main": "index.js",
     "scripts": {
@@ -45,7 +45,7 @@
         "prettier": "^3.2.5",
         "typescript": "~5.4.5"
     },
-    "dependencies": {
+    "optionalDependencies": {
         "ibm_db": "^3.3.2"
     },
     "peerDependencies": {
